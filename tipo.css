@@ -1,0 +1,153 @@
+body {
+    height: auto;
+    width: auto;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:  rgb(211, 46, 175);
+    
+}
+.carrito-button {
+    display: inline-block;
+    padding: 5px 5px;
+    background-color:rgba(137, 10, 240, 0.493);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: auto;
+}
+.carrito-button img {
+    align-items: center;
+    width: 25px;
+    justify-content: right;
+
+}
+header {
+    background-color: #be58cc88;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;   
+}
+.cartel  img {
+width: 100%;
+height: 850px;
+}
+.content {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    }
+h1 {
+    text-align: center;
+    margin: 0;
+    flex: 1;
+    font-family:Bahnschrift Condensed;
+}
+h2 {
+    font-size: 3.33333333333333333333333333333333333rem;
+    font-family: Gabriola;
+    margin: 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin-left: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+#seccion-destino1 img{
+    height: 300px;
+    width: 240px;
+}
+#seccion-destino2 img{
+    height: 300px;
+    width: 240px;
+}
+#seccion-destino3 img{
+    height: 300px;
+    width: 240px;
+}
+#seccion-destino4 img{
+    height: 300px;
+    width: 240px;
+}
+#seccion-destino5 img{
+    height: 300px;
+    width: 240px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+#toggle-menu {
+    display: block; 
+    cursor: pointer; 
+    background-color:rgba(137, 10, 240, 0.493) ;
+}
+#shop {
+    display: block; 
+    cursor: pointer; 
+
+}
+#shop img {
+    height: 20px;
+}
+
+#main-menu {
+    display: none;
+}
+#main-menu.mostrar {
+    display: block;
+}
+#agregar-carrito {
+    display: block; 
+    cursor: pointer; 
+}
+#agregar-carrito img{
+    margin: 0%;
+    height: 20px;
+    width: 22;
+}
+.producto {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+.agregar-carrito {
+    background-color: #FF5733;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    width: 100%; 
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px; 
+    cursor: pointer;
+    margin-top: 10px;
+}
+#carrito img {
+    height: 200px;
+    width: 200px;
+}
+.precio {
+    margin-top: 0px;
+    margin: 25px;
+    color: #333;
+}
+#pagar {
+    background-color: rgba(9, 255, 0, 0.822);
+    
+}
